@@ -1,0 +1,26 @@
+{
+  "name": "devamitbera/emove-adobe-stock",
+  "license": "OSL-3.0",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Amit Bera",
+      "email": "dev.amitbera@gmail.com",
+      "homepage": "https://www.amitbera.com"
+    }
+  ],
+  "require": {
+    "magento/product-community-edition": "2.4.*"
+  },
+  "replace": {
+    "magento/module-adobe-stock-admin-ui": "*",
+    "magento/module-adobe-stock-asset": "*",
+    "magento/module-adobe-stock-asset-api":"*",
+    "magento/module-adobe-stock-client": "*",
+    "magento/module-adobe-stock-client-api":"*",
+    "magento/module-adobe-stock-image":"*",
+    "magento/module-adobe-stock-image-admin-ui": "*",
+    "magento/module-adobe-stock-image-api": "*"
+  },
+  "minimum-stability": "stable"
+}
