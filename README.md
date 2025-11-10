@@ -58,31 +58,6 @@ You can verify that Adobe modules are removed by running:
 
 ---
 
-### Option 2: Manual `composer.json` Replacement
-
-If you prefer not to install via Composer, you can manually update your root `composer.json` file:
-
-```json
-"replace": {
-    "magento/module-adobe-ims": "*",
-    "magento/module-adobe-ims-api": "*",
-    "magento/module-adobe-stock-admin-ui": "*",
-    "magento/module-adobe-stock-asset-api": "*",
-    "magento/module-adobe-stock-client": "*",
-    "magento/module-adobe-stock-client-api": "*",
-    "magento/module-adobe-stock-image": "*",
-    "magento/module-adobe-stock-image-admin-ui": "*",
-    "magento/module-adobe-stock-image-api": "*"
-}
-```
-
-Then execute:
-
-```bash
-composer update
-bin/magento setup:upgrade
-```
-
 ---
 
 ## 💡 Benefits
